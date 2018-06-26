@@ -213,8 +213,8 @@ namespace crypto {
 PUSH_WARNINGS
 DISABLE_VS_WARNINGS(4200)
   struct ec_point_pair {
-+    ec_point a, b;
-+  };
+    ec_point a, b;
+  };
   struct rs_comm {
     hash h;
     struct ec_point_pair ab[];
